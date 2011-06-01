@@ -1,9 +1,12 @@
 from setuptools import setup
 
+import eventer
+
 setup(
     name='eventer',
-    version='0.1',
-    description='Event handling library',
+    version=eventer.__version__,
+    description='A simple event dispatching library',
+    long_description=eventer.__doc__,
     author='Anand Chitipothu',
     author_email='anand@archive.org',
     py_modules=["eventer"],

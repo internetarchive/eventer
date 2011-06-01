@@ -22,7 +22,7 @@ from collections import defaultdict
 import logging
 
 __all__ = ["bind", "unbind", "trigger"]
-__version__ = "0.1"
+__version__ = "0.1.1"
 __author__ = "Anand Chitipothu <anand@archive.org>"
 __license__ = "GPL v3"
 
